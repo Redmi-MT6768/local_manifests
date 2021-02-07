@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Redmi-MT6768"
+           fetch="https://github.com"
+           revision="ten" />
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/merlin" name="Redmi-MT6768/android_device_xiaomi_merlin" remote="Redmi-MT6768" revision="ten"/>
+  <project path="device/xiaomi/lancelot" name="Redmi-MT6768/android_device_xiaomi_lancelot" remote="Redmi-MT6768" revision="ten"/>
+
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/mt6768" name="Redmi-MT6768/android_kernel_xiaomi_mt6768" remote="Redmi-MT6768" revision="lancelot-q-oss"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/merlin" name="Redmi-MT6768/android_vendor_xiaomi_merlin" remote="Redmi-MT6768" revision="ten"/>
+  <project path="vendor/xiaomi/lancelot" name="Redmi-MT6768/android_vendor_xiaomi_lancelot" remote="Redmi-MT6768" revision="ten"/>
+
+</manifest>

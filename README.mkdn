@@ -1,0 +1,11 @@
+Local Manifests
+===========
+LineageOS 17.1
+---------------
+```
+curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/Redmi-MT6768/local_manifests/master/mt6768.xml --create-dirs
+```
+Then to sync up:
+```
+repo sync -j$(nproc --all) --force-sync
+```
