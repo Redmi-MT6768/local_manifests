@@ -10,7 +10,7 @@ curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/
 ```bash
 # Sync
 repo sync -j$(nproc --all) --force-sync
-
+```
 
 ### LineageOS 17.1 ###
 
