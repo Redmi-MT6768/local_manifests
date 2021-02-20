@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="Redmi-MT6768"
-           fetch="https://github.com"
-           revision="ten" />
+           fetch="https://github.com"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/merlin" name="Redmi-MT6768/android_device_xiaomi_merlin" remote="Redmi-MT6768" revision="lineage-18.1"/>
