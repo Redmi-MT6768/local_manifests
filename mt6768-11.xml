@@ -15,5 +15,6 @@
   <project path="vendor/xiaomi/merlin" name="Redmi-MT6768/android_vendor_xiaomi_merlin" remote="Redmi-MT6768" revision="eleven"/>
   <project path="vendor/xiaomi/lancelot" name="Redmi-MT6768/android_vendor_xiaomi_lancelot" remote="Redmi-MT6768" revision="eleven"/>
   <project path="vendor/mediatek/ims" name="Redmi-MT6768/android_vendor_mediatek_ims" remote="Redmi-MT6768" revision="eleven"/>
+  <project path="vendor/mediatek/interfaces" name="PixelExperience/vendor_mediatek_interfaces" remote="Redmi-MT6768" revision="eleven"/>
 
 </manifest>
