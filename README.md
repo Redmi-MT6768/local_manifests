@@ -1,6 +1,6 @@
 # Local Manifests #
 Just grab the manifest and sync to get device sources
-### LineageOS 18.1 ###
+### AOSP R ###
 
 ```bash
 
