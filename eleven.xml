@@ -6,7 +6,7 @@
            revision="eleven"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/merlin" name="android_device_xiaomi_merlin" remote="Redmi-MT6768"/>
+  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="Redmi-MT6768"/>
   <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="Redmi-MT6768"/>
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="Redmi-MT6768"/>
  
@@ -14,7 +14,7 @@
   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="Redmi-MT6768"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/merlin" name="android_vendor_xiaomi_merlin" remote="Redmi-MT6768"/>
+  <project path="vendor/xiaomi/merlinx" name="android_vendor_xiaomi_merlinx" remote="Redmi-MT6768"/>
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="Redmi-MT6768"/>
   
  <!-- Extras -->
