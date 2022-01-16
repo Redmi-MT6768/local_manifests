@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Redmi-MT6768"
+           fetch="https://github.com/Redmi-MT6768"
+           revision="twelve"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="Redmi-MT6768" revision="lineage-19.0"/>
+  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="Redmi-MT6768" revision="lineage-19.0"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="Redmi-MT6768" revision="lineage-19.0"/>
+ 
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="Redmi-MT6768"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/merlinx" name="android_vendor_xiaomi_merlinx" remote="Redmi-MT6768"/>
+  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="Redmi-MT6768"/>
+  <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="Redmi-MT6768"/>
+  
+ <!-- Extras -->
+  <project path="device/mediatek/sepolicy_vndr" name="StatiXOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="sc"/>
+
+</manifest>
